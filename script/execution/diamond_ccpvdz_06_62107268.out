@@ -1,0 +1,39 @@
+Testing batch formation!
+ Allocate 255016 B from available memory: 1073741824000 B
+ Allocate 12544 B from available memory: 1073741568992 B
+ === Condition number for overlap matrix === 
+ik = 0 has S cond of 8028.586258112208
+a
+0.000000000000 3.359460618053 3.359460618053
+3.359460618053 0.000000000000 3.359460618053
+3.359460618053 3.359460618053 0.000000000000
+nuc_coord
+0.000000000000 1.679730309027
+0.000000000000 1.679730309027
+0.000000000000 1.679730309027
+rel_coord
+0.000000000000 0.250000000000
+0.000000000000 0.250000000000
+0.000000000000 0.250000000000
+The number of shellpair is 78
+The number of auxiliary shell is 36
+ ==== Start the test for the code with reduced workload for prescreening ==== 
+ Relevant parameter in the calculation is reported here for reproduciable purpose 
+ Range-separated parameter is 0.6000000000000000
+Finish constructing the lattice sum!
+The maximum dcut is 24.3395689009293719
+The maximum Rcut is 32.9252372506728221
+There are 78 shellpairs in the reference unit cell
+There are 791 images and we expect to have 61698 in total
+There are 20445 shellpairs in the lattice sum after screening
+ ==== The threshold for screening is ==== 0.0000000000000010
+ Start the calculation for the 2e3c integral with the lattice sum 
+   =============================================  
+m_first_bra_ucell 0
+m_first_ket_ucell 0
+nspb_ucell 78
+nspk_ucell 36
+m_nbspb_ucell[0] 438
+m_nbspk_ucell 112
+The time for the calculation is 27.3106168469999986 s
+... Done with the calculation...

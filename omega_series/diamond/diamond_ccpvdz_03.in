@@ -1,0 +1,36 @@
+$lattice
+3
+0.0 1.77775 1.77775
+1.77775 0.0 1.77775
+1.77775 1.77775 0.0
+$end
+
+
+$unitcell
+ABSOLUTE
+0 1
+C 0.0 0.0 0.0
+C 0.888875 0.888875 0.888875
+$end
+
+$rem
+jobtype = sp
+method = pbe
+basis = cc-pvdz
+aux_basis = rimp2-cc-pvdz
+integral_direct = true
+do_rij_bigmem = false
+compact_diffuse_thresh = 2.0
+mp_mesh = [1,1,1]
+omega_rs = 0.3
+fft_ng = 10
+aft_ng = 10
+scf_convergence = 7
+input_bohr = false
+scf_algorithm = gdm
+MAX_SCF_CYCLES = 500
+madelung = false
+mem_total = 32000
+print_level = 10
+grid_type_xc = 2
+$end
